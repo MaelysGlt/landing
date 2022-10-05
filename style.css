@@ -32,9 +32,10 @@ p {
 .container {
 	width: 800px;
 	margin:auto;
+	margin-top: 28px;
 }
 .banner {
-	 background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/deux-sèvres.jpg');
+	 background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('images/deux-sèvres.jpg');
 	 background-size: cover;
 	 background-position: center;
 	 padding: 140px;
@@ -43,12 +44,13 @@ p {
 .banner h1 {
 	color: floralwhite;
 	margin: 0;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 .banner p {
 	color: floralwhite;
 	font-size: 20px;
+	font-style: italic;
 }
 
 .button-purple {
@@ -73,7 +75,8 @@ p {
     width: 200px;
     text-align: center;
     padding: 22px;
-    margin: 8px;
+    margin-bottom: 35px;
+    margin-top: 28px;
 }
 
 .card-white img {
